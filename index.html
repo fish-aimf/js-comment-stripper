@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Comment Stripper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Comment Stripper</h1>
+        <p>Paste your JavaScript code below to remove all single-line comments (//):</p>
+        
+        <div class="input-section">
+            <label for="input">Input JavaScript Code:</label>
+            <textarea id="input" placeholder="Paste your JavaScript code here..."></textarea>
+        </div>
+        
+        <button id="stripBtn">Strip Comments</button>
+        
+        <div class="output-section">
+            <label for="output">Output (Comments Removed):</label>
+            <textarea id="output" readonly></textarea>
+        </div>
+        
+        <button id="copyBtn">Copy Output</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
